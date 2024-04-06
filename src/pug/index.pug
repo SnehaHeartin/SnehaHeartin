@@ -1,0 +1,291 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Resume - Start Bootstrap Theme
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+            a.navbar-brand.js-scroll-trigger(href='#page-top')
+                span.d-block.d-lg-none Sneha Thomas
+                span.d-none.d-lg-block
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/sneha-profile.jpeg', alt='...')
+            button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarResponsive.collapse.navbar-collapse
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#about') About
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#skills') Technical Proficiency
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#competencies') Core Competencies
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#certifications') Certifications| Awards
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#education') Education
+
+        // Page Content
+        .container-fluid.p-0
+
+            // About
+            section#about.resume-section
+                .resume-section-content
+                    h1.mb-0
+                        | Sneha 
+                        span.text-primary Thomas
+                    .subheading.mb-5
+                        | 687 Arbour Lake Dr NW, Calgary, AB T3G 4T6 · (1) 3064509360 · 
+                        a(href='mailto:snehaheartin@gmail.com') snehaheartin@gmail.com
+                    p.lead.mb-5
+                        | Performance-driven software professional having 13 years of IT experience with a specialization in the design, development, architecture, and maintenance of applications. My expertise spans across full-stack applications, demonstrating a comprehensive skill set. Currently, I am making significant contributions as a Senior Software Engineer at the Australia and New Zealand Bank.
+                    .social-icons
+                        a.social-icon(href='https://www.linkedin.com/in/snehaheartin/')
+                            i.fab.fa-linkedin-in
+                        a.social-icon(href='https://github.com/SnehaHeartin/')
+                            i.fab.fa-github
+                        //- a.social-icon(href='#!')
+                        //-     i.fab.fa-twitter
+                        //- a.social-icon(href='#!')
+                        //-     i.fab.fa-facebook-f
+
+            hr.m-0
+            // Skills // Technical Proficiency
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Technical Proficiency
+                    //- .subheading.mb-3 Workflow
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | <b>Core Technologies:</b> Java, Angular, Spring, Spring Boot, Hibernate, SQL
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | <b>Cloud Computing:</b> Azure, AWS
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | <b>Frameworks:</b> Spring-boot, Angular, Hibernate
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | <b>Build Tools:</b> Maven, Gradle
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | <b>CI/CD:</b> Jenkins, Codefresh
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | <b>Deployment:</b> Udeploy, Helm Charts, Openshift, Codefresh
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | <b>Quality Tools:</b> Sonar, Black Duck, TwistLock
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | <b>Familiar Technologies:</b> Kotlin
+
+            hr.m-0
+
+            // Core Competencies
+            section#competencies.resume-section
+                .resume-section-content
+                    h2.mb-5 Core Competencies
+                    //- .subheading.mb-3 Workflow
+                    p 
+                    ul
+                        li Skilled full-stack developer with proficiency in Java, Spring Boot, and Angular and a strong command over database management using MySQL, SQL, and PostgreSQL.
+                        li Proficiency in Core Java, with a solid understanding of OOPs Concepts and advanced features such as lambdas and streams, driving the creation of clean, modular, and efficient code.
+                        li Extensive experience in developing, consuming, and orchestrating RESTful web services using Spring Framework, complemented by robust data handling with Hibernate and Spring Data JPA.
+                        li Led the successful transition from a monolithic application framework to a microservices-oriented architecture.
+                        li Efficient in managing and deploying multiple software releases, streamlining the development cycle and minimizing downtime.
+                        li Proven leadership abilities in guiding and mentoring teams through complex technical tasks, fostering a collaborative and skilled team environment.
+                        li Strong commitment to agile methodologies, ensuring efficient and effective project execution with a focus on iterative development and customer feedback.
+                        li Technical reviewer for publications such as the 'Serverless Programming Book' and the 'AWS Security Cookbook', contributing to the knowledge base of the developer community
+
+            hr.m-0
+
+            // Certifications
+            section#certifications.resume-section
+                .resume-section-content
+                    h2.mb-5 Certifications | Awards
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Azure Fundamentals certificate (AZ-900)
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Azure developer Associate certificate (AZ-204)
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | AWS Cloud practitioner
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Agile SAFE 4 Certified practitioner
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | College Topper in Engineering
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Secured Super Nova Award at Sapient Global Markets
+
+
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Experience
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Australia & New Zealand Bank(ANZ)
+                            .subheading.mb-3 Lead Software Engineer
+                            p
+                            ul 
+                                li Spearheaded application development initiatives, ensuring timely delivery of high-quality software products.
+                                li Played a pivotal role in the design and architecture of new applications, aligning with business objectives and technological standards.
+                                li Conducted comprehensive analysis of existing applications to identify and implement improvement opportunities.
+                                li Orchestrated the migration of legacy monolithic applications to a modern microservices architecture, enhancing scalability and maintainability.
+                                li Managed code integration, performed PR reviews, and prepared release documentation to streamline deployment processes.
+                                li Developed and maintained Jenkins and Codefresh pipelines to automate build, test, and deployment workflows.
+                                li Led the deployment of applications to production environments, ensuring smooth transition and minimal downtime.
+                                li Configured and managed OpenShift deployment strategies, optimizing resource utilization and deployment efficiency.
+                                li Troubleshoot complex application issues, providing rapid solutions to maintain high service levels.
+                                li Addressed and resolved critical production issues, mitigating risks and preventing potential service disruptions.
+                                li Mentored junior team members, offering guidance on best practices and technical challenges.
+                                li Coordinated the onboarding of new team members, facilitating a seamless integration into the team.
+                                li Managed vendor relationships, ensuring that external partners met contractual obligations and delivered services effectively.
+                        .flex-shrink-0
+                            span.text-primary June 2019 - March 2024
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Societe Generale
+                            .subheading.mb-3 Lead Software Engineer
+                            p
+                            ul 
+                                li Functioned as a full stack developer, with hands-on involvement in both front-end and backend development.
+                                li Developed a comprehensive event auditing application for financial deals, improving tracking and reporting capabilities.
+                                li Built the front-end interface using Angular, creating a user-friendly and responsive design.
+                                li Engineered the application’s backend with Java, utilizing Spring and Hibernate frameworks for robust data management.
+                                li Contributed to the project as an independent developer, taking full ownership of features from conception to deployment.
+                                li Participated in peer code reviews (PR reviews), ensuring code quality and adherence to best practices.
+                        .flex-shrink-0
+                            span.text-primary December 2018 - June 2019
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Cognizant Technology Solutions
+                            .subheading.mb-3 Senior Associate
+                            .subheading.mb-3 Client (ANZ)
+                            p
+                            ul 
+                                li Led the end-to-end development of a new trade reporting application, incorporating user interface design and backend coding, to facilitate order creation, updates, and real-time notifications.
+                                li Actively involved in gathering requirements, creating JIRA tickets, and overseeing the release management process to ensure project milestones were met.
+                                li Developed new modules and enhanced existing functionalities to improve system performance and user experience.
+                                li Successfully migrated existing application codebase from Spring Boot 1 to Spring Boot 2, aligning with the latest technology standards for increased efficiency.
+                                li Implemented file processing systems for various source systems, streamlining data handling and integration.
+                        .flex-shrink-0
+                            span.text-primary May 2018 - December 2018
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Sapient Global Markets
+                            .subheading.mb-3 Senior Associate
+                            .subheading.mb-3 Client (ANZ)
+                            p
+                            ul 
+                            li Developed a trade reporting application from start to finish, enabling order tracking and realtime updates.
+                            li Gathered project requirements and organized them into tasks using JIRA, assisting with project scheduling and management.
+                            li Created new features and improved existing application functions to meet evolving user needs.
+                        .flex-shrink-0
+                            span.text-primary August 2016 - May 2018
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Ericsson India Pvt Ltd
+                            .subheading.mb-3 Solution Integrator
+                            p
+                            ul 
+                            li Developed new modules using Java, Spring, and Hibernate, enhancing system functionality.
+                            li Reorganized the existing system structure to align with new global standards.
+                            li Prepared documentation and created use cases to support project requirements.
+                            li Contributed to the development of various application modules, improving product features.
+                            li Participated in the creation of web components and APIs, strengthening the application's interface and backend communication.
+                        .flex-shrink-0
+                            span.text-primary April 2014 - May 2016
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Tata Consultancy Services
+                            .subheading.mb-3 Software Engineer
+                            p
+                            ul 
+                            li Developed and maintained various tools using Java, Spring, and Hibernate to streamline daily tasks and enhance operational efficiency.
+                            li Engineered simple Java-based tools for automated report generation, aiding in data analysis and administrative tasks.
+                            li Utilized Microsoft Excel to create advanced reports and tracking systems, enabling better data management and reporting accuracy.
+                            li Administered and provided support for communication and collaboration tools such as Lotus Notes, Outlook, and Internet Edge, ensuring robust spam control and message delivery.
+                            li Developed a Leave Management System module tailored for new employees, incorporating Java, JSP, and SQL, improving internal project management.
+                        .flex-shrink-0
+                            span.text-primary March 2011 - April 2014
+            hr.m-0
+
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 University of Calicut
+                            .subheading.mb-3 Bachelor of Technology
+                            div Electronics & Commnunication Engineering
+                            p Percentage: 81.32
+                        .flex-shrink-0
+                            span.text-primary October 2006 - June 2010
+            hr.m-0
+
+            //- // Interests
+            //- section#interests.resume-section
+            //-     .resume-section-content
+            //-         h2.mb-5 Interests
+            //-         p
+            //-             | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
+            //-         p.mb-0
+            //-             | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
+
+            //- hr.m-0
+
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
